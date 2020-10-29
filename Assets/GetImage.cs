@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
 public class GetImage : MonoBehaviour
@@ -11,19 +12,23 @@ public class GetImage : MonoBehaviour
 
     public MeshRenderer faceMesh;
 
+    public Slider transparencySlider;
+    
     [SerializeField]
     bool testGetTexture;
 
     // Update is called once per frame
     void Update()
     {
-        if (faceMesh == null)
-            faceMesh = GameObject.FindWithTag("FaceObject").GetComponent<MeshRenderer>();
-        else if (faceMesh.material != faceMat)
+        /*
+        if (faceMesh != null && faceMesh.material != faceMat)
         {
             faceMat.color = Color.white;
             faceMesh.material = faceMat;
         }
+        */
+        
+        faceMesh.material.color = new Color(faceMesh.material.color.r,faceMesh.material.color.g,faceMesh.material.color.b,transparencySlider.value);
         
         if (testGetTexture)
         {

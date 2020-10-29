@@ -36,20 +36,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="848">
-              <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+            <state relative-caret-position="704">
+              <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
               <folding>
-                <marker date="1604000511100" expanded="true" signature="6:113" ph="..." />
-                <marker date="1604000511100" expanded="true" signature="152:1800" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="357:761" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="530:632" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="669:755" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="807:1700" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="906:1598" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="995:1588" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="1182:1317" ph="{...}" />
-                <marker date="1604000511100" expanded="true" signature="1335:1496" ph="/* If a procedural texture is not destroyed manually, ... */" />
-                <marker date="1604000511100" expanded="true" signature="1734:1798" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="6:135" ph="..." />
+                <marker date="1604002463049" expanded="true" signature="174:1941" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="423:902" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="438:615" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+                <marker date="1604002463049" expanded="true" signature="810:896" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="948:1841" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="1047:1739" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="1136:1729" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="1323:1458" ph="{...}" />
+                <marker date="1604002463049" expanded="true" signature="1476:1637" ph="/* If a procedural texture is not destroyed manually, ... */" />
+                <marker date="1604002463049" expanded="true" signature="1875:1939" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/HeyIExist.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+              <folding>
+                <marker date="1604001238926" expanded="false" signature="6:78" ph="..." />
+                <marker date="1604001238926" expanded="true" signature="118:485" ph="{...}" />
+                <marker date="1604001238926" expanded="true" signature="242:404" ph="{...}" />
+                <marker date="1604001238926" expanded="true" signature="462:483" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -59,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/NativeGallery/NativeGallery.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="109">
-              <caret line="663" column="70" lean-forward="true" selection-start-line="663" selection-start-column="70" selection-end-line="663" selection-end-column="70" />
+              <caret line="663" column="70" selection-start-line="663" selection-start-column="70" selection-end-line="663" selection-end-column="70" />
               <folding>
                 <marker date="1601999254000" expanded="false" signature="6:84" ph="..." />
                 <marker date="1601999254000" expanded="true" signature="208:27558" ph="{...}" />
@@ -151,11 +166,15 @@
       <find>maxSize</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GetImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OverlayManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARInputManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARTrackableManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeyIExist.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARFaceManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/NativeGallery/NativeGallery.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -164,16 +183,17 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/OverlayManager.cs" />
         <option value="$PROJECT_DIR$/Assets/GetTexture.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeyIExist.cs" />
         <option value="$PROJECT_DIR$/Assets/GetImage.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1173" />
-    <option name="y" value="148" />
+    <option name="x" value="-7" />
     <option name="width" value="1294" />
-    <option name="height" value="967" />
+    <option name="height" value="1407" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -233,12 +253,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603945098561</updated>
-      <workItem from="1603945116664" duration="10189000" />
+      <workItem from="1603945116664" duration="11816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10189000" />
+    <option name="totallyTimeSpent" value="11816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -250,7 +270,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1173" y="148" width="1294" height="967" extended-state="0" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -332,7 +352,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/NativeGallery/NativeGallery.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
-          <caret line="663" column="70" lean-forward="true" selection-start-line="663" selection-start-column="70" selection-end-line="663" selection-end-column="70" />
+          <caret line="663" column="70" selection-start-line="663" selection-start-column="70" selection-end-line="663" selection-end-column="70" />
           <folding>
             <marker date="1601999254000" expanded="false" signature="6:84" ph="..." />
             <marker date="1601999254000" expanded="true" signature="208:27558" ph="{...}" />
@@ -422,22 +442,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/HeyIExist.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <marker date="1604001238926" expanded="false" signature="6:78" ph="..." />
+            <marker date="1604001238926" expanded="true" signature="118:485" ph="{...}" />
+            <marker date="1604001238926" expanded="true" signature="242:404" ph="{...}" />
+            <marker date="1604001238926" expanded="true" signature="462:483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        <state relative-caret-position="704">
+          <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
           <folding>
-            <marker date="1604000511100" expanded="true" signature="6:113" ph="..." />
-            <marker date="1604000511100" expanded="true" signature="152:1800" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="357:761" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="530:632" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="669:755" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="807:1700" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="906:1598" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="995:1588" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="1182:1317" ph="{...}" />
-            <marker date="1604000511100" expanded="true" signature="1335:1496" ph="/* If a procedural texture is not destroyed manually, ... */" />
-            <marker date="1604000511100" expanded="true" signature="1734:1798" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="6:135" ph="..." />
+            <marker date="1604002463049" expanded="true" signature="174:1941" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="423:902" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="438:615" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+            <marker date="1604002463049" expanded="true" signature="810:896" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="948:1841" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="1047:1739" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="1136:1729" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="1323:1458" ph="{...}" />
+            <marker date="1604002463049" expanded="true" signature="1476:1637" ph="/* If a procedural texture is not destroyed manually, ... */" />
+            <marker date="1604002463049" expanded="true" signature="1875:1939" ph="{...}" />
           </folding>
         </state>
       </provider>
