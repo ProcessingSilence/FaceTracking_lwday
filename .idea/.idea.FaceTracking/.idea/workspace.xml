@@ -33,23 +33,57 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+            <state relative-caret-position="192">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
-                <marker date="1604002463049" expanded="true" signature="6:135" ph="..." />
-                <marker date="1604002463049" expanded="true" signature="174:1941" ph="{...}" />
-                <marker date="1604002463049" expanded="true" signature="423:902" ph="{...}" />
-                <marker date="1604002463049" expanded="true" signature="438:615" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
-                <marker date="1604002463049" expanded="true" signature="810:896" ph="{...}" />
-                <marker date="1604002463049" expanded="true" signature="948:1841" ph="{...}" />
-                <marker date="1604002463049" expanded="true" signature="1047:1739" ph="{...}" />
-                <marker date="1604002463049" expanded="true" signature="1136:1729" ph="{...}" />
-                <marker date="1604002463049" expanded="true" signature="1323:1458" ph="{...}" />
-                <marker date="1604002463049" expanded="true" signature="1476:1637" ph="/* If a procedural texture is not destroyed manually, ... */" />
-                <marker date="1604002463049" expanded="true" signature="1875:1939" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="6:135" ph="..." />
+                <marker date="1604002625540" expanded="true" signature="174:1940" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="422:901" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="437:614" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+                <marker date="1604002625540" expanded="true" signature="809:895" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="947:1840" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="1046:1738" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="1135:1728" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="1322:1457" ph="{...}" />
+                <marker date="1604002625540" expanded="true" signature="1475:1636" ph="/* If a procedural texture is not destroyed manually, ... */" />
+                <marker date="1604002625540" expanded="true" signature="1874:1938" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/NewUnlitShader.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="86" selection-start-column="86" selection-end-column="86" />
+              <folding>
+                <marker date="1604004408021" expanded="true" signature="91:313" ph="/* Unity built-in shader source. Copyright (c) 2016 Unity Technologies. MIT license (see license.txt) ... */" />
+                <marker date="1604004408021" expanded="true" signature="344:1870" ph="{...}" />
+                <marker date="1604004408021" expanded="true" signature="357:450" ph="{...}" />
+                <marker date="1604004408021" expanded="true" signature="461:1868" ph="{...}" />
+                <marker date="1604004408021" expanded="true" signature="577:1866" ph="{...}" />
+                <marker date="1604004408021" expanded="true" signature="596:1855" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/TakePhoto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+              <folding>
+                <marker date="1604008650487" expanded="false" signature="6:78" ph="..." />
+                <marker date="1604008650487" expanded="true" signature="118:689" ph="{...}" />
+                <marker date="1604008650487" expanded="true" signature="193:245" ph="{...}" />
+                <marker date="1604008650487" expanded="true" signature="277:682" ph="{...}" />
+                <marker date="1604008650487" expanded="true" signature="329:383" ph="{...}" />
+                <marker date="1604008650487" expanded="true" signature="614:667" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -171,8 +205,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GetImage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OverlayManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TakePhoto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARInputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NewUnlitShader.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARTrackableManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HeyIExist.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARFaceManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -185,12 +220,14 @@
         <option value="$PROJECT_DIR$/Assets/GetTexture.cs" />
         <option value="$PROJECT_DIR$/Assets/HeyIExist.cs" />
         <option value="$PROJECT_DIR$/Assets/GetImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/NewUnlitShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/TakePhoto.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1294" />
+    <option name="width" value="1303" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -253,12 +290,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603945098561</updated>
-      <workItem from="1603945116664" duration="11816000" />
+      <workItem from="1603945116664" duration="15690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11816000" />
+    <option name="totallyTimeSpent" value="15690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -270,13 +307,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
+    <frame x="-7" y="0" width="1303" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959481" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24778761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -337,12 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <marker date="1603986435708" expanded="true" signature="6:120" ph="..." />
-            <marker date="1603986435708" expanded="true" signature="165:339" ph="{...}" />
-            <marker date="1603986435708" expanded="true" signature="237:258" ph="{...}" />
-            <marker date="1603986435708" expanded="true" signature="316:337" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,20 +488,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="47" column="53" lean-forward="true" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
+        <state relative-caret-position="192">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <marker date="1604002463049" expanded="true" signature="6:135" ph="..." />
-            <marker date="1604002463049" expanded="true" signature="174:1941" ph="{...}" />
-            <marker date="1604002463049" expanded="true" signature="423:902" ph="{...}" />
-            <marker date="1604002463049" expanded="true" signature="438:615" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
-            <marker date="1604002463049" expanded="true" signature="810:896" ph="{...}" />
-            <marker date="1604002463049" expanded="true" signature="948:1841" ph="{...}" />
-            <marker date="1604002463049" expanded="true" signature="1047:1739" ph="{...}" />
-            <marker date="1604002463049" expanded="true" signature="1136:1729" ph="{...}" />
-            <marker date="1604002463049" expanded="true" signature="1323:1458" ph="{...}" />
-            <marker date="1604002463049" expanded="true" signature="1476:1637" ph="/* If a procedural texture is not destroyed manually, ... */" />
-            <marker date="1604002463049" expanded="true" signature="1875:1939" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="6:135" ph="..." />
+            <marker date="1604002625540" expanded="true" signature="174:1940" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="422:901" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="437:614" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+            <marker date="1604002625540" expanded="true" signature="809:895" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="947:1840" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="1046:1738" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="1135:1728" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="1322:1457" ph="{...}" />
+            <marker date="1604002625540" expanded="true" signature="1475:1636" ph="/* If a procedural texture is not destroyed manually, ... */" />
+            <marker date="1604002625540" expanded="true" signature="1874:1938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NewUnlitShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="86" selection-start-column="86" selection-end-column="86" />
+          <folding>
+            <marker date="1604004408021" expanded="true" signature="91:313" ph="/* Unity built-in shader source. Copyright (c) 2016 Unity Technologies. MIT license (see license.txt) ... */" />
+            <marker date="1604004408021" expanded="true" signature="344:1870" ph="{...}" />
+            <marker date="1604004408021" expanded="true" signature="357:450" ph="{...}" />
+            <marker date="1604004408021" expanded="true" signature="461:1868" ph="{...}" />
+            <marker date="1604004408021" expanded="true" signature="577:1866" ph="{...}" />
+            <marker date="1604004408021" expanded="true" signature="596:1855" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TakePhoto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding>
+            <marker date="1604008650487" expanded="false" signature="6:78" ph="..." />
+            <marker date="1604008650487" expanded="true" signature="118:689" ph="{...}" />
+            <marker date="1604008650487" expanded="true" signature="193:245" ph="{...}" />
+            <marker date="1604008650487" expanded="true" signature="277:682" ph="{...}" />
+            <marker date="1604008650487" expanded="true" signature="329:383" ph="{...}" />
+            <marker date="1604008650487" expanded="true" signature="614:667" ph="{...}" />
           </folding>
         </state>
       </provider>
