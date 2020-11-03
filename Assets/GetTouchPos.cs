@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class GetTouchPos : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class GetTouchPos : MonoBehaviour
     private Vector2 screenRes;
 
     public Vector2 textureOffset;
+
 
     //public bool testOffset;
     // Start is called before the first frame update

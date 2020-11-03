@@ -24,24 +24,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
+            <state relative-caret-position="720">
+              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
               <folding>
-                <marker date="1604379553627" expanded="false" signature="6:135" ph="..." />
-                <marker date="1604379553627" expanded="true" signature="174:2114" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="466:1075" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="481:658" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
-                <marker date="1604379553627" expanded="true" signature="689:946" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="983:1069" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="1121:2014" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="1220:1912" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="1309:1902" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="1496:1631" ph="{...}" />
-                <marker date="1604379553627" expanded="true" signature="1649:1810" ph="/* If a procedural texture is not destroyed manually, ... */" />
-                <marker date="1604379553627" expanded="true" signature="2048:2112" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="6:167" ph="..." />
+                <marker date="1604380906885" expanded="true" signature="206:2625" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="502:597" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="655:870" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="691:864" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="893:1586" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="908:1085" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+                <marker date="1604380906885" expanded="true" signature="1198:1302" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="1399:1465" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="1494:1580" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="1632:2525" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="1731:2423" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="1820:2413" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="2007:2142" ph="{...}" />
+                <marker date="1604380906885" expanded="true" signature="2160:2321" ph="/* If a procedural texture is not destroyed manually, ... */" />
+                <marker date="1604380906885" expanded="true" signature="2559:2623" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -81,19 +85,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/GetTouchPos.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            <state relative-caret-position="224">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <marker date="1604380117817" expanded="false" signature="6:78" ph="..." />
-                <marker date="1604380117817" expanded="true" signature="120:1176" ph="{...}" />
-                <marker date="1604380117817" expanded="true" signature="319:397" ph="/* public bool testOffset; ... */" />
-                <marker date="1604380117817" expanded="true" signature="414:658" ph="{...}" />
-                <marker date="1604380117817" expanded="true" signature="716:1174" ph="{...}" />
-                <marker date="1604380117817" expanded="true" signature="756:1019" ph="{...}" />
-                <marker date="1604380117817" expanded="true" signature="1029:1168" ph="/* if (testOffset) ... */" />
+                <marker date="1604380616473" expanded="false" signature="6:78" ph="..." />
+                <marker date="1604380616473" expanded="true" signature="152:1209" ph="{...}" />
+                <marker date="1604380616473" expanded="true" signature="352:430" ph="/* public bool testOffset; ... */" />
+                <marker date="1604380616473" expanded="true" signature="447:691" ph="{...}" />
+                <marker date="1604380616473" expanded="true" signature="749:1207" ph="{...}" />
+                <marker date="1604380616473" expanded="true" signature="789:1052" ph="{...}" />
+                <marker date="1604380616473" expanded="true" signature="1062:1201" ph="/* if (testOffset) ... */" />
               </folding>
             </state>
           </provider>
@@ -253,8 +257,8 @@
         <option value="$PROJECT_DIR$/Assets/NewUnlitShader.shader" />
         <option value="$PROJECT_DIR$/Assets/TakePhoto.cs" />
         <option value="$PROJECT_DIR$/Assets/MaterialThing.cs" />
-        <option value="$PROJECT_DIR$/Assets/GetImage.cs" />
         <option value="$PROJECT_DIR$/Assets/GetTouchPos.cs" />
+        <option value="$PROJECT_DIR$/Assets/GetImage.cs" />
       </list>
     </option>
   </component>
@@ -324,12 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603945098561</updated>
       <workItem from="1603945116664" duration="16328000" />
-      <workItem from="1604375375066" duration="4607000" />
+      <workItem from="1604375375066" duration="5388000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20935000" />
+    <option name="totallyTimeSpent" value="21716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -535,6 +539,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARInputManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GetTouchPos.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1604380616473" expanded="false" signature="6:78" ph="..." />
+            <marker date="1604380616473" expanded="true" signature="152:1209" ph="{...}" />
+            <marker date="1604380616473" expanded="true" signature="352:430" ph="/* public bool testOffset; ... */" />
+            <marker date="1604380616473" expanded="true" signature="447:691" ph="{...}" />
+            <marker date="1604380616473" expanded="true" signature="749:1207" ph="{...}" />
+            <marker date="1604380616473" expanded="true" signature="789:1052" ph="{...}" />
+            <marker date="1604380616473" expanded="true" signature="1062:1201" ph="/* if (testOffset) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/MaterialThing.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -548,46 +575,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.arfoundation@3.1.6/Runtime/AR/ARInputManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="35" column="82" selection-start-line="35" selection-start-column="82" selection-end-line="35" selection-end-column="82" />
+        <state relative-caret-position="720">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
           <folding>
-            <marker date="1604379553627" expanded="false" signature="6:135" ph="..." />
-            <marker date="1604379553627" expanded="true" signature="174:2114" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="466:1075" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="481:658" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
-            <marker date="1604379553627" expanded="true" signature="689:946" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="983:1069" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="1121:2014" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="1220:1912" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="1309:1902" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="1496:1631" ph="{...}" />
-            <marker date="1604379553627" expanded="true" signature="1649:1810" ph="/* If a procedural texture is not destroyed manually, ... */" />
-            <marker date="1604379553627" expanded="true" signature="2048:2112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GetTouchPos.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-          <folding>
-            <marker date="1604380117817" expanded="false" signature="6:78" ph="..." />
-            <marker date="1604380117817" expanded="true" signature="120:1176" ph="{...}" />
-            <marker date="1604380117817" expanded="true" signature="319:397" ph="/* public bool testOffset; ... */" />
-            <marker date="1604380117817" expanded="true" signature="414:658" ph="{...}" />
-            <marker date="1604380117817" expanded="true" signature="716:1174" ph="{...}" />
-            <marker date="1604380117817" expanded="true" signature="756:1019" ph="{...}" />
-            <marker date="1604380117817" expanded="true" signature="1029:1168" ph="/* if (testOffset) ... */" />
+            <marker date="1604380906885" expanded="true" signature="6:167" ph="..." />
+            <marker date="1604380906885" expanded="true" signature="206:2625" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="502:597" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="655:870" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="691:864" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="893:1586" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="908:1085" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+            <marker date="1604380906885" expanded="true" signature="1198:1302" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="1399:1465" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="1494:1580" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="1632:2525" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="1731:2423" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="1820:2413" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="2007:2142" ph="{...}" />
+            <marker date="1604380906885" expanded="true" signature="2160:2321" ph="/* If a procedural texture is not destroyed manually, ... */" />
+            <marker date="1604380906885" expanded="true" signature="2559:2623" ph="{...}" />
           </folding>
         </state>
       </provider>

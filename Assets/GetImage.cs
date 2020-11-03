@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
 
@@ -19,8 +20,24 @@ public class GetImage : MonoBehaviour
     [SerializeField]
     bool testGetTexture;
 
+    
+    private EventSystem _eventSystem;
+
+    void Awake()
+    {
+        _eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();
+    }
     // Update is called once per frame
+
     void Update()
+    {
+        if (faceMesh != null)
+        {
+            faceMesh.material.color = new Color(faceMesh.material.color.r,faceMesh.material.color.g,faceMesh.material.color.b,transparencySlider.value);
+        }
+    }
+
+    void LateUpdate()
     {
         /*
         if (faceMesh != null && faceMesh.material != faceMat)
@@ -30,12 +47,15 @@ public class GetImage : MonoBehaviour
         }
         */
 
-        if (faceMesh != null)
+        if (faceMesh != null && EventSystem.current.currentSelectedGameObject != transparencySlider.gameObject)
         {
-            faceMesh.material.color = new Color(faceMesh.material.color.r,faceMesh.material.color.g,faceMesh.material.color.b,transparencySlider.value);
             faceMesh.material.mainTextureOffset = GetTouchPos_script.textureOffset;
         }
-        
+        else if (EventSystem.current.currentSelectedGameObject == transparencySlider.gameObject)
+        {
+            Debug.Log("Transparency slider");
+        }
+
         if (testGetTexture)
         {
             testGetTexture = false;
