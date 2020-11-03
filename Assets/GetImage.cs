@@ -13,6 +13,8 @@ public class GetImage : MonoBehaviour
     public MeshRenderer faceMesh;
 
     public Slider transparencySlider;
+
+    public GetTouchPos GetTouchPos_script;
     
     [SerializeField]
     bool testGetTexture;
@@ -27,8 +29,12 @@ public class GetImage : MonoBehaviour
             faceMesh.material = faceMat;
         }
         */
-        
-        faceMesh.material.color = new Color(faceMesh.material.color.r,faceMesh.material.color.g,faceMesh.material.color.b,transparencySlider.value);
+
+        if (faceMesh != null)
+        {
+            faceMesh.material.color = new Color(faceMesh.material.color.r,faceMesh.material.color.g,faceMesh.material.color.b,transparencySlider.value);
+            faceMesh.material.mainTextureOffset = GetTouchPos_script.textureOffset;
+        }
         
         if (testGetTexture)
         {
