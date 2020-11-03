@@ -27,25 +27,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+            <state relative-caret-position="768">
+              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
               <folding>
-                <marker date="1604380906885" expanded="true" signature="6:167" ph="..." />
-                <marker date="1604380906885" expanded="true" signature="206:2625" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="502:597" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="655:870" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="691:864" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="893:1586" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="908:1085" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
-                <marker date="1604380906885" expanded="true" signature="1198:1302" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="1399:1465" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="1494:1580" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="1632:2525" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="1731:2423" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="1820:2413" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="2007:2142" ph="{...}" />
-                <marker date="1604380906885" expanded="true" signature="2160:2321" ph="/* If a procedural texture is not destroyed manually, ... */" />
-                <marker date="1604380906885" expanded="true" signature="2559:2623" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="6:167" ph="..." />
+                <marker date="1604383053525" expanded="true" signature="206:2647" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="502:597" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="655:870" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="691:864" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="893:1608" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="908:1085" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+                <marker date="1604383053525" expanded="true" signature="1198:1302" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="1311:1487" ph="/* else if (EventSystem.current.currentSelectedGameObject == transparencySlider.gameObject) ... */" />
+                <marker date="1604383053525" expanded="true" signature="1516:1602" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="1654:2547" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="1753:2445" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="1842:2435" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="2029:2164" ph="{...}" />
+                <marker date="1604383053525" expanded="true" signature="2182:2343" ph="/* If a procedural texture is not destroyed manually, ... */" />
+                <marker date="1604383053525" expanded="true" signature="2581:2645" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -136,7 +136,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/NativeGallery/NativeGallery.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="800">
               <caret line="663" column="70" selection-start-line="663" selection-start-column="70" selection-end-line="663" selection-end-column="70" />
               <folding>
                 <marker date="1601999254000" expanded="false" signature="6:84" ph="..." />
@@ -328,12 +328,12 @@
       <option name="presentableId" value="Default" />
       <updated>1603945098561</updated>
       <workItem from="1603945116664" duration="16328000" />
-      <workItem from="1604375375066" duration="5388000" />
+      <workItem from="1604375375066" duration="6030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21716000" />
+    <option name="totallyTimeSpent" value="22358000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,7 +427,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/NativeGallery/NativeGallery.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="800">
           <caret line="663" column="70" selection-start-line="663" selection-start-column="70" selection-end-line="663" selection-end-column="70" />
           <folding>
             <marker date="1601999254000" expanded="false" signature="6:84" ph="..." />
@@ -577,25 +577,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/GetImage.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+        <state relative-caret-position="768">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
           <folding>
-            <marker date="1604380906885" expanded="true" signature="6:167" ph="..." />
-            <marker date="1604380906885" expanded="true" signature="206:2625" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="502:597" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="655:870" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="691:864" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="893:1586" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="908:1085" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
-            <marker date="1604380906885" expanded="true" signature="1198:1302" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="1399:1465" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="1494:1580" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="1632:2525" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="1731:2423" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="1820:2413" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="2007:2142" ph="{...}" />
-            <marker date="1604380906885" expanded="true" signature="2160:2321" ph="/* If a procedural texture is not destroyed manually, ... */" />
-            <marker date="1604380906885" expanded="true" signature="2559:2623" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="6:167" ph="..." />
+            <marker date="1604383053525" expanded="true" signature="206:2647" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="502:597" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="655:870" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="691:864" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="893:1608" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="908:1085" ph="/* if (faceMesh != null &amp;&amp; faceMesh.material != faceMat) ... */" />
+            <marker date="1604383053525" expanded="true" signature="1198:1302" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="1311:1487" ph="/* else if (EventSystem.current.currentSelectedGameObject == transparencySlider.gameObject) ... */" />
+            <marker date="1604383053525" expanded="true" signature="1516:1602" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="1654:2547" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="1753:2445" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="1842:2435" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="2029:2164" ph="{...}" />
+            <marker date="1604383053525" expanded="true" signature="2182:2343" ph="/* If a procedural texture is not destroyed manually, ... */" />
+            <marker date="1604383053525" expanded="true" signature="2581:2645" ph="{...}" />
           </folding>
         </state>
       </provider>

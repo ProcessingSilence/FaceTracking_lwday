@@ -51,10 +51,12 @@ public class GetImage : MonoBehaviour
         {
             faceMesh.material.mainTextureOffset = GetTouchPos_script.textureOffset;
         }
+        /*
         else if (EventSystem.current.currentSelectedGameObject == transparencySlider.gameObject)
         {
             Debug.Log("Transparency slider");
         }
+        */
 
         if (testGetTexture)
         {
