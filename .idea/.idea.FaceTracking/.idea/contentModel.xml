@@ -61,7 +61,6 @@
             </e>
           </e>
         </e>
-        <e p="MaterialThing.cs" t="Include" />
         <e p="NewUnlitShader.shader" t="Include" />
         <e p="Plugins" t="Include">
           <e p="NativeGallery" t="Include">

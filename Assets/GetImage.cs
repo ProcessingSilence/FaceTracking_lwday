@@ -85,6 +85,7 @@ public class GetImage : MonoBehaviour
                 // it will only be freed after a scene change
                 //Destroy( getPicture, 5f );
                 Debug.Log(getPicture.name);
+                GetTouchPos_script.textureOffset = Vector2.zero;                
                 SetFaceTexture();
             }
         }, "Select a PNG image", "image/png" );
