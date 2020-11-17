@@ -82,6 +82,7 @@
             <e p="README.txt" t="Include" />
           </e>
         </e>
+        <e p="ScreenshotButton.cs" t="Include" />
         <e p="TakePhoto.cs" t="Include" />
       </e>
       <e p="FaceTracking.sln" t="IncludeFlat" />

@@ -17,6 +17,10 @@ public class GetImage : MonoBehaviour
 
     public GetTouchPos GetTouchPos_script;
     
+    
+    public Vector2 currentOffset, oldOffset, startingOffset;
+    public bool testingBool;
+    
     [SerializeField]
     bool testGetTexture;
 
@@ -39,24 +43,38 @@ public class GetImage : MonoBehaviour
 
     void LateUpdate()
     {
-        /*
-        if (faceMesh != null && faceMesh.material != faceMat)
-        {
-            faceMat.color = Color.white;
-            faceMesh.material = faceMat;
-        }
-        */
 
-        if (faceMesh != null && EventSystem.current.currentSelectedGameObject != transparencySlider.gameObject)
+        if (faceMesh != null && EventSystem.current.currentSelectedGameObject != transparencySlider.gameObject && GetTouchPos_script.getnewTouchPos)
         {
-            faceMesh.material.mainTextureOffset = GetTouchPos_script.textureOffset;
+            if (testingBool == false)
+            {
+                testingBool = true;
+                startingOffset = GetTouchPos_script.textureOffset;
+            }
+
+            currentOffset = GetTouchPos_script.textureOffset;
+
+
+            var finalOffset = (startingOffset - currentOffset) + oldOffset;
+
+            if (finalOffset.x > 1 || finalOffset.x < -1)
+            {
+                finalOffset = new Vector2(Mathf.Repeat(finalOffset.x, 1.0f), finalOffset.y);
+            }
+            
+            if (finalOffset.y > 1 || finalOffset.y < -1)
+            {
+                finalOffset = new Vector2(finalOffset.x, Mathf.Repeat(finalOffset.y, 1.0f));
+            }
+
+            faceMesh.material.mainTextureOffset = finalOffset;
         }
-        /*
-        else if (EventSystem.current.currentSelectedGameObject == transparencySlider.gameObject)
+
+        if (GetTouchPos_script.getnewTouchPos == false)
         {
-            Debug.Log("Transparency slider");
+            testingBool = false;
+            oldOffset = faceMesh.material.mainTextureOffset;
         }
-        */
 
         if (testGetTexture)
         {
@@ -73,7 +91,6 @@ public class GetImage : MonoBehaviour
             if( path != null )
             {
                 // Create Texture from selected image
-
                 getPicture = NativeGallery.LoadImageAtPath( path, maxSize );
                 if( getPicture == null )
                 {
@@ -92,9 +109,11 @@ public class GetImage : MonoBehaviour
 
         Debug.Log( "Permission result: " + permission );
     }
-
+    
     public void SetFaceTexture()
     {
         faceMat.SetTexture("_MainTex", getPicture);
     }
+
+
 }

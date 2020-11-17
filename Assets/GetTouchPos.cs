@@ -6,6 +6,10 @@ using UnityEngine.EventSystems;
 public class GetTouchPos : MonoBehaviour
 {
     public Vector2 touchPos;
+    
+    public Vector2 newTouchPos;
+    public Vector2 lastTouchPos;
+    [HideInInspector]public bool getnewTouchPos;
 
     //[SerializeField] private Camera camera;
 
@@ -30,18 +34,22 @@ public class GetTouchPos : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
+            if (getnewTouchPos == false)
+            {
+                getnewTouchPos = true;
+                newTouchPos = Input.GetTouch(0).position;             
+            }
+
+
             touchPos = Input.GetTouch(0).position;
+
             textureOffset = new Vector2(touchPos.x / screenRes.x, -touchPos.y / screenRes.y);
             Debug.Log(textureOffset);   
-            //faceMat.mainTextureOffset = textureOffset;
         }
-
-        /*
-        if (testOffset)
+        if (Input.touchCount <= 0 && getnewTouchPos)
         {
-            testOffset = false;
-            faceMat.mainTextureOffset = touchPos;
+            lastTouchPos = touchPos;
+            getnewTouchPos = false;
         }
-        */
     }
 }
