@@ -14,7 +14,7 @@ public class GetImage : MonoBehaviour
     public MeshRenderer faceMesh;
 
     public Slider transparencySlider;
-
+    public Button screenshotButton;
     public GetTouchPos GetTouchPos_script;
     
     
@@ -43,38 +43,45 @@ public class GetImage : MonoBehaviour
 
     void LateUpdate()
     {
-
-        if (faceMesh != null && EventSystem.current.currentSelectedGameObject != transparencySlider.gameObject && GetTouchPos_script.getnewTouchPos)
+        // Get the touch distance from newest starting point to current starting point, then add upon to last touch point
+        // so it starts at the image's current position.
+        if (faceMesh != null)
         {
-            if (getFirstTouch == false)
+            if (EventSystem.current.currentSelectedGameObject != transparencySlider.gameObject && GetTouchPos_script.getnewTouchPos)
             {
-                getFirstTouch = true;
-                startingOffset = GetTouchPos_script.textureOffset;
-            }
+                if (getFirstTouch == false)
+                {
+                    getFirstTouch = true;
+                    startingOffset = GetTouchPos_script.textureOffset;
+                }
 
-            currentOffset = GetTouchPos_script.textureOffset;
+                currentOffset = GetTouchPos_script.textureOffset;
 
 
-            var finalOffset = (startingOffset - currentOffset) + oldOffset;
+                var finalOffset = (startingOffset - currentOffset) + oldOffset;
 
-            if (finalOffset.x > 1 || finalOffset.x < -1)
-            {
-                finalOffset = new Vector2(Mathf.Repeat(finalOffset.x, 1.0f), finalOffset.y);
-            }
+                // Wrap around number upon going above 1 or under -1, as texture offset number cannot go any further.
+                if (finalOffset.x > 1 || finalOffset.x < -1)
+                {
+                    finalOffset = new Vector2(Mathf.Repeat(finalOffset.x, 1.0f), finalOffset.y);
+                }
             
-            if (finalOffset.y > 1 || finalOffset.y < -1)
-            {
-                finalOffset = new Vector2(finalOffset.x, Mathf.Repeat(finalOffset.y, 1.0f));
+                if (finalOffset.y > 1 || finalOffset.y < -1)
+                {
+                    finalOffset = new Vector2(finalOffset.x, Mathf.Repeat(finalOffset.y, 1.0f));
+                }
+
+                faceMesh.material.mainTextureOffset = finalOffset;
             }
 
-            faceMesh.material.mainTextureOffset = finalOffset;
+            if (GetTouchPos_script.getnewTouchPos == false)
+            {
+                getFirstTouch = false;
+                oldOffset = faceMesh.material.mainTextureOffset;
+            }
         }
 
-        if (GetTouchPos_script.getnewTouchPos == false)
-        {
-            getFirstTouch = false;
-            oldOffset = faceMesh.material.mainTextureOffset;
-        }
+
 
         if (testGetTexture)
         {
