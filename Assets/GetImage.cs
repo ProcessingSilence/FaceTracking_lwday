@@ -19,7 +19,7 @@ public class GetImage : MonoBehaviour
     
     
     public Vector2 currentOffset, oldOffset, startingOffset;
-    public bool testingBool;
+    public bool getFirstTouch;
     
     [SerializeField]
     bool testGetTexture;
@@ -46,9 +46,9 @@ public class GetImage : MonoBehaviour
 
         if (faceMesh != null && EventSystem.current.currentSelectedGameObject != transparencySlider.gameObject && GetTouchPos_script.getnewTouchPos)
         {
-            if (testingBool == false)
+            if (getFirstTouch == false)
             {
-                testingBool = true;
+                getFirstTouch = true;
                 startingOffset = GetTouchPos_script.textureOffset;
             }
 
@@ -72,7 +72,7 @@ public class GetImage : MonoBehaviour
 
         if (GetTouchPos_script.getnewTouchPos == false)
         {
-            testingBool = false;
+            getFirstTouch = false;
             oldOffset = faceMesh.material.mainTextureOffset;
         }
 
