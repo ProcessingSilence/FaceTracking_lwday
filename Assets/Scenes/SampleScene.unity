@@ -407,6 +407,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   touchPos: {x: 0, y: 0}
+  newTouchPos: {x: 0, y: 0}
+  lastTouchPos: {x: 0, y: 0}
+  getnewTouchPos: 0
   faceMat: {fileID: 2100000, guid: f4d8d3045153a8f428fdb125ad07a472, type: 2}
   textureOffset: {x: 0, y: 0}
 --- !u!4 &323105113
@@ -1055,6 +1058,10 @@ MonoBehaviour:
   faceMesh: {fileID: 0}
   transparencySlider: {fileID: 1314575139}
   GetTouchPos_script: {fileID: 323105112}
+  currentOffset: {x: 0, y: 0}
+  oldOffset: {x: 0, y: 0}
+  startingOffset: {x: 0, y: 0}
+  getFirstTouch: 0
   testGetTexture: 0
 --- !u!114 &1554010462
 MonoBehaviour:
