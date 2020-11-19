@@ -6,63 +6,59 @@
     <e p="F:\UnityProjects\FaceTracking" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="GetImage.cs" t="Include" />
-        <e p="GetTouchPos.cs" t="Include" />
-        <e p="HeyIExist.cs" t="Include" />
-        <e p="LunarConsole" t="Include">
-          <e p="Editor" t="Include">
-            <e p="AndroidPlugin.cs" t="Include" />
-            <e p="Autorun.cs" t="Include" />
-            <e p="BuildPostProcessor.cs" t="Include" />
-            <e p="Compatibility.cs" t="Include" />
-            <e p="EditorConstants.cs" t="Include" />
-            <e p="EditorHelper.cs" t="Include" />
-            <e p="Installer.cs" t="Include" />
-            <e p="Legacy" t="Include">
-              <e p="LunarConsoleLegacyActionsEditor.cs" t="Include" />
-            </e>
-            <e p="Log.cs" t="Include" />
-            <e p="LunarConsoleActionEditor.cs" t="Include" />
-            <e p="LunarConsoleEditor.asmdef" t="Include" />
-            <e p="LunarConsoleEditor.cs" t="Include" />
-            <e p="LunarConsoleEditorAnalytics.cs" t="Include" />
-            <e p="LunarConsoleHttpClient.cs" t="Include" />
-            <e p="MenuItems.cs" t="Include" />
-            <e p="SimpleJSON.cs" t="Include" />
-            <e p="UI" t="Include">
-              <e p="ActionsAndVariablesWindow.cs" t="Include" />
-            </e>
-            <e p="Updater.cs" t="Include" />
-            <e p="Utils.cs" t="Include" />
-          </e>
-          <e p="README.txt" t="Include" />
-          <e p="Scripts" t="Include">
-            <e p="Actions" t="Include">
-              <e p="CAction.cs" t="Include" />
-              <e p="CRegistry.cs" t="Include" />
-              <e p="CVar.cs" t="Include" />
-            </e>
-            <e p="Constants.cs" t="Include" />
-            <e p="Legacy" t="Include">
-              <e p="LunarConsoleLegacyActions.cs" t="Include" />
-            </e>
-            <e p="LunarConsole.asmdef" t="Include" />
-            <e p="LunarConsole.cs" t="Include" />
-            <e p="LunarConsoleAction.cs" t="Include" />
-            <e p="Utils" t="Include">
-              <e p="BaseList.cs" t="Include" />
-              <e p="ClassUtils.cs" t="Include" />
-              <e p="ColorUtils.cs" t="Include" />
-              <e p="FileUtils.cs" t="Include" />
-              <e p="Iterator.cs" t="Include" />
-              <e p="Log.cs" t="Include" />
-              <e p="ReflectionUtils.cs" t="Include" />
-              <e p="StringUtils.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="NewUnlitShader.shader" t="Include" />
+        <e p="FaceShader.shader" t="Include" />
         <e p="Plugins" t="Include">
+          <e p="LunarConsole" t="Include">
+            <e p="Editor" t="Include">
+              <e p="AndroidPlugin.cs" t="Include" />
+              <e p="Autorun.cs" t="Include" />
+              <e p="BuildPostProcessor.cs" t="Include" />
+              <e p="Compatibility.cs" t="Include" />
+              <e p="EditorConstants.cs" t="Include" />
+              <e p="EditorHelper.cs" t="Include" />
+              <e p="Installer.cs" t="Include" />
+              <e p="Legacy" t="Include">
+                <e p="LunarConsoleLegacyActionsEditor.cs" t="Include" />
+              </e>
+              <e p="Log.cs" t="Include" />
+              <e p="LunarConsoleActionEditor.cs" t="Include" />
+              <e p="LunarConsoleEditor.asmdef" t="Include" />
+              <e p="LunarConsoleEditor.cs" t="Include" />
+              <e p="LunarConsoleEditorAnalytics.cs" t="Include" />
+              <e p="LunarConsoleHttpClient.cs" t="Include" />
+              <e p="MenuItems.cs" t="Include" />
+              <e p="SimpleJSON.cs" t="Include" />
+              <e p="UI" t="Include">
+                <e p="ActionsAndVariablesWindow.cs" t="Include" />
+              </e>
+              <e p="Updater.cs" t="Include" />
+              <e p="Utils.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Actions" t="Include">
+                <e p="CAction.cs" t="Include" />
+                <e p="CRegistry.cs" t="Include" />
+                <e p="CVar.cs" t="Include" />
+              </e>
+              <e p="Constants.cs" t="Include" />
+              <e p="Legacy" t="Include">
+                <e p="LunarConsoleLegacyActions.cs" t="Include" />
+              </e>
+              <e p="LunarConsole.asmdef" t="Include" />
+              <e p="LunarConsole.cs" t="Include" />
+              <e p="LunarConsoleAction.cs" t="Include" />
+              <e p="Utils" t="Include">
+                <e p="BaseList.cs" t="Include" />
+                <e p="ClassUtils.cs" t="Include" />
+                <e p="ColorUtils.cs" t="Include" />
+                <e p="FileUtils.cs" t="Include" />
+                <e p="Iterator.cs" t="Include" />
+                <e p="Log.cs" t="Include" />
+                <e p="ReflectionUtils.cs" t="Include" />
+                <e p="StringUtils.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="NativeGallery" t="Include">
             <e p="Android" t="Include">
               <e p="NGCallbackHelper.cs" t="Include" />
@@ -82,8 +78,14 @@
             <e p="README.txt" t="Include" />
           </e>
         </e>
-        <e p="ScreenshotButton.cs" t="Include" />
-        <e p="TakePhoto.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="GetImage.cs" t="Include" />
+          <e p="GetTouchPos.cs" t="Include" />
+          <e p="HeyIExist.cs" t="Include" />
+          <e p="MemorizePhotos.cs" t="Include" />
+          <e p="ScreenshotButton.cs" t="Include" />
+          <e p="TakePhoto.cs" t="Include" />
+        </e>
       </e>
       <e p="FaceTracking.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

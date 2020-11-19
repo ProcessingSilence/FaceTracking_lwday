@@ -27,9 +27,13 @@ public class GetImage : MonoBehaviour
     
     private EventSystem _eventSystem;
 
+    [SerializeField]private MemorizePhotos _memorizePhotos;
+
+    public string previousPath;
     void Awake()
     {
         _eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();
+        _memorizePhotos = GetComponent<MemorizePhotos>();
     }
     // Update is called once per frame
 
@@ -105,6 +109,12 @@ public class GetImage : MonoBehaviour
                     return;
                 }
 
+
+                _memorizePhotos.newPath = path;
+                _memorizePhotos.beginArrayAdd = true;
+                
+
+                previousPath = path;
                 // If a procedural texture is not destroyed manually, 
                 // it will only be freed after a scene change
                 //Destroy( getPicture, 5f );
