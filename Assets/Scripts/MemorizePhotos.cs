@@ -10,11 +10,15 @@ public class MemorizePhotos : MonoBehaviour
 
     public List<string> pathList;
 
+    public List<Texture2D> thumbnailList;
+
     public string newPath;
 
     public bool beginArrayAdd;
 
-    private int iteration = -1;
+    private int pathIteration = -1;
+
+    public int thumbnailIteration = -1;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,8 +32,8 @@ public class MemorizePhotos : MonoBehaviour
         {
             beginArrayAdd = false;
             pathList.Add(newPath);
-            iteration++;
-            Debug.Log("Debugged path: " + pathList[iteration]);
+            pathIteration++;
+            Debug.Log("Debugged path: " + pathList[pathIteration]);
             //AddToArray();
         }
     }

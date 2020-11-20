@@ -85,6 +85,7 @@
           <e p="MemorizePhotos.cs" t="Include" />
           <e p="ScreenshotButton.cs" t="Include" />
           <e p="TakePhoto.cs" t="Include" />
+          <e p="TextureScale.cs" t="Include" />
         </e>
       </e>
       <e p="FaceTracking.sln" t="IncludeFlat" />

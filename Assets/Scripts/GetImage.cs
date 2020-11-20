@@ -108,12 +108,55 @@ public class GetImage : MonoBehaviour
                     Debug.Log( "Couldn't load texture from " + path );
                     return;
                 }
-
+                
 
                 _memorizePhotos.newPath = path;
                 _memorizePhotos.beginArrayAdd = true;
-                
 
+                //var thumbnail = getPicture.GetRawTextureData();
+                
+                /*
+                byte[] tmp = getPicture.GetRawTextureData();
+                Texture2D tmpTexture = new Texture2D(getPicture.width,getPicture.height);
+                tmpTexture.LoadRawTextureData(tmp);
+                TextureScale.Bilinear(tmpTexture, 50, 50);
+                */
+                
+                // CREDIT: https://support.unity.com/hc/en-us/articles/206486626-How-can-I-get-pixels-from-unreadable-textures-
+                RenderTexture tmp = RenderTexture.GetTemporary( 
+                    getPicture.width,
+                    getPicture.height,
+                    0,
+                    RenderTextureFormat.Default,
+                    RenderTextureReadWrite.Linear);
+                Graphics.Blit(getPicture, tmp);
+                RenderTexture previous = RenderTexture.active;
+                RenderTexture.active = tmp;
+                Texture2D myTexture2D = new Texture2D(getPicture.width, getPicture.height);
+                myTexture2D.ReadPixels(new Rect(0, 0, tmp.width, tmp.height), 0, 0);
+                myTexture2D.Apply();
+                RenderTexture.active = previous;
+                RenderTexture.ReleaseTemporary(tmp);
+                
+                TextureScale.Bilinear(myTexture2D, 50, 50);
+                _memorizePhotos.thumbnailList.Add(myTexture2D);
+                _memorizePhotos.thumbnailIteration++;
+
+                Debug.Log("Width: " + _memorizePhotos.thumbnailList[_memorizePhotos.thumbnailIteration].width +
+                          " Height: " + _memorizePhotos.thumbnailList[_memorizePhotos.thumbnailIteration].height);
+                
+                /*
+                if (_memorizePhotos.thumbnailList[_memorizePhotos.thumbnailIteration] != null)
+                {
+                    Debug.Log("Picture " + _memorizePhotos.thumbnailIteration + " is not null");
+                }
+                else
+                {
+                    Debug.Log("Picture " + _memorizePhotos.thumbnailIteration + " null");
+                }
+
+                Debug.Log("IMAGE: " + _memorizePhotos.thumbnailList[_memorizePhotos.thumbnailIteration]);
+                */
                 previousPath = path;
                 // If a procedural texture is not destroyed manually, 
                 // it will only be freed after a scene change
