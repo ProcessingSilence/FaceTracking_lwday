@@ -10,10 +10,18 @@ public class PageSwiper : MonoBehaviour, IDragHandler, IEndDragHandler
     public float percentThreshold = 0.2f;
 
     public float easing = 0.5f;
+
+    public bool isWholeScreen;
+
+    public float widthAmt;
     // Start is called before the first frame update
     void Start()
     {
         panelLocation = transform.position;
+        if (isWholeScreen)
+        {
+            widthAmt = Screen.width;
+        }
     }
 
     // Update is called once per frame
@@ -32,17 +40,17 @@ public class PageSwiper : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void OnEndDrag(PointerEventData data)
     {
-        float percentage = (data.pressPosition.x - data.position.x) / Screen.width;
+        float percentage = (data.pressPosition.x - data.position.x) / widthAmt;
         if (Mathf.Abs(percentage) >= percentThreshold)
         {
             Vector3 newLocation = panelLocation;
             if (percentage > 0)
             {
-                newLocation += new Vector3(-Screen.width, 0 ,0);                
+                newLocation += new Vector3(-widthAmt, 0 ,0);                
             }
             else if (percentage < 0)
             {
-                newLocation += new Vector3(Screen.width, 0, 0);
+                newLocation += new Vector3(widthAmt, 0, 0);
             }
 
             StartCoroutine(SmoothMove(transform.position, newLocation, easing));
