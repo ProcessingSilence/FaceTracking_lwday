@@ -57,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/PageSwiper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
+            <state relative-caret-position="465">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <marker date="1606071497285" expanded="false" signature="6:110" ph="..." />
@@ -81,19 +81,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/PanelSpawner.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="640">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               <folding>
-                <marker date="1606168763264" expanded="false" signature="6:78" ph="..." />
-                <marker date="1606168763264" expanded="true" signature="121:1035" ph="{...}" />
-                <marker date="1606168763264" expanded="true" signature="403:424" ph="{...}" />
-                <marker date="1606168763264" expanded="true" signature="482:598" ph="{...}" />
-                <marker date="1606168763264" expanded="true" signature="514:592" ph="{...}" />
-                <marker date="1606168763264" expanded="true" signature="619:1033" ph="{...}" />
-                <marker date="1606168763264" expanded="true" signature="664:995" ph="{...}" />
+                <marker date="1606169217233" expanded="false" signature="6:78" ph="..." />
+                <marker date="1606169217233" expanded="true" signature="121:1115" ph="{...}" />
+                <marker date="1606169217233" expanded="true" signature="411:432" ph="{...}" />
+                <marker date="1606169217233" expanded="true" signature="490:606" ph="{...}" />
+                <marker date="1606169217233" expanded="true" signature="522:600" ph="{...}" />
+                <marker date="1606169217233" expanded="true" signature="627:1113" ph="{...}" />
+                <marker date="1606169217233" expanded="true" signature="672:1075" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scenes/RectTransformExtensions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
               <folding>
                 <marker date="1606168669868" expanded="true" signature="62:624" ph="{...}" />
                 <marker date="1606168669868" expanded="true" signature="130:200" ph="{...}" />
@@ -298,12 +298,12 @@
       <workItem from="1604375375066" duration="8899000" />
       <workItem from="1604860222273" duration="2311000" />
       <workItem from="1605559925796" duration="45215000" />
-      <workItem from="1606166785989" duration="2260000" />
+      <workItem from="1606166785989" duration="2703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75013000" />
+    <option name="totallyTimeSpent" value="75456000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,28 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scenes/PageSwiper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <marker date="1606071497285" expanded="false" signature="6:110" ph="..." />
-            <marker date="1606071497285" expanded="true" signature="182:1998" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="425:565" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="502:559" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="623:644" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="691:904" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="954:1672" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="1095:1549" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="1186:1291" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="1328:1416" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="1562:1665" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="1748:1996" ph="{...}" />
-            <marker date="1606071497285" expanded="true" signature="1802:1990" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MemorizePhotos.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -593,8 +571,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/RectTransformExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
           <folding>
             <marker date="1606168669868" expanded="true" signature="62:624" ph="{...}" />
             <marker date="1606168669868" expanded="true" signature="130:200" ph="{...}" />
@@ -607,16 +585,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scenes/PanelSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state relative-caret-position="640">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding>
-            <marker date="1606168763264" expanded="false" signature="6:78" ph="..." />
-            <marker date="1606168763264" expanded="true" signature="121:1035" ph="{...}" />
-            <marker date="1606168763264" expanded="true" signature="403:424" ph="{...}" />
-            <marker date="1606168763264" expanded="true" signature="482:598" ph="{...}" />
-            <marker date="1606168763264" expanded="true" signature="514:592" ph="{...}" />
-            <marker date="1606168763264" expanded="true" signature="619:1033" ph="{...}" />
-            <marker date="1606168763264" expanded="true" signature="664:995" ph="{...}" />
+            <marker date="1606169217233" expanded="false" signature="6:78" ph="..." />
+            <marker date="1606169217233" expanded="true" signature="121:1115" ph="{...}" />
+            <marker date="1606169217233" expanded="true" signature="411:432" ph="{...}" />
+            <marker date="1606169217233" expanded="true" signature="490:606" ph="{...}" />
+            <marker date="1606169217233" expanded="true" signature="522:600" ph="{...}" />
+            <marker date="1606169217233" expanded="true" signature="627:1113" ph="{...}" />
+            <marker date="1606169217233" expanded="true" signature="672:1075" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scenes/PageSwiper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <marker date="1606071497285" expanded="false" signature="6:110" ph="..." />
+            <marker date="1606071497285" expanded="true" signature="182:1998" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="425:565" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="502:559" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="623:644" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="691:904" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="954:1672" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="1095:1549" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="1186:1291" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="1328:1416" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="1562:1665" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="1748:1996" ph="{...}" />
+            <marker date="1606071497285" expanded="true" signature="1802:1990" ph="{...}" />
           </folding>
         </state>
       </provider>
