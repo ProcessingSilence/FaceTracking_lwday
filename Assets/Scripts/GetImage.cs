@@ -30,6 +30,8 @@ public class GetImage : MonoBehaviour
     [SerializeField]private MemorizePhotos _memorizePhotos;
 
     public string previousPath;
+
+    public PanelSpawner PanelSpawner_script;
     void Awake()
     {
         _eventSystem = GameObject.Find("EventSystem").GetComponent<EventSystem>();
@@ -138,13 +140,18 @@ public class GetImage : MonoBehaviour
                 RenderTexture.active = previous;
                 RenderTexture.ReleaseTemporary(tmp);
                 
-                TextureScale.Bilinear(myTexture2D, 50, 50);
+                TextureScale.Bilinear(myTexture2D, 300, 300);
                 _memorizePhotos.thumbnailList.Add(myTexture2D);
                 _memorizePhotos.thumbnailIteration++;
 
                 Debug.Log("Width: " + _memorizePhotos.thumbnailList[_memorizePhotos.thumbnailIteration].width +
                           " Height: " + _memorizePhotos.thumbnailList[_memorizePhotos.thumbnailIteration].height);
                 
+
+                Sprite tempSprite = Sprite.Create(getPicture,new Rect(0,0, 300,300), new Vector2(0.5f, 0.5f));
+
+                PanelSpawner_script.thumbnailSlot = tempSprite;
+                PanelSpawner_script.AddPanel();
                 /*
                 if (_memorizePhotos.thumbnailList[_memorizePhotos.thumbnailIteration] != null)
                 {
